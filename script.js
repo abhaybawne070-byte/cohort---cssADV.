@@ -5,8 +5,8 @@ const character="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
 function randomtext(){
     const str=text.split("").map(function(){
-        return character.split [Math.floor(Math.random()*52)]
-    }).join()
+        return character.split("") [Math.floor(Math.random()*52)]
+    }).join("")
 
-    console.log(str)
+    p.innerText=str
 }
