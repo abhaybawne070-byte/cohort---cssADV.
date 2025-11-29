@@ -17,11 +17,20 @@ body{
     align-items: center;
     background-color: black;
 }
+.box{
+    display: inline-block;
+    width: 300px;
+    align-items: center;
+    justify-items: center;
+   
+}
+#word{
+    font-family: h1;
+    text-align: center;
+}
 p{ 
     font-size: 50px;
-    font-family: h1 ;
     font-weight: 50;
-    text-align: center;
     color: rgb(15, 255, 15);
 
 }
