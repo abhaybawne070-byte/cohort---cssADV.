@@ -10,10 +10,10 @@ function randomtext(){
         if(index<iteration){
             return char
         }
-        return character.split("") [Math.floor(Math.random()*52)]
+        return character.split("") [Math.floor(Math.random()*character.length)]
     }).join("")
 
     p.innerText=str
-    iteration+=0.2
+    iteration+=0.25
 }
-setInterval(randomtext,20)
+setInterval(randomtext,60)
